@@ -3,7 +3,6 @@ share: true
 layout: default
 title: blog page
 order: 3
-permalink: /blog/
 ---
 
 <h2>Blog Posts</h2>
