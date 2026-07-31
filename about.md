@@ -3,7 +3,6 @@ share: true
 title: About
 layout: default
 order: 2
-permalink: /about/
 ---
 ## About
 

@@ -3,7 +3,6 @@ share: true
 title: Links
 layout: default
 order: 5
-permalink: /links/
 ---
 ## Links
 
@@ -20,7 +19,9 @@ also some other blogs thrown in there.
 - [Pixelina](https://pixalina.neocities.org/)
 - [Practical Betterments](https://practicalbetterments.com/)
 - [Endtimes](https://endtimes.dev/)
-
+- [McMansion Hell](mcmansionhell.com)
+- [Organic Architecture](https://www.oshatz.com/index.htm)
+- [Threehalves](satyress.com)
 ### YouTube Channels
 
 - [Technology Connections](https://www.youtube.com/@TechnologyConnections)

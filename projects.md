@@ -3,7 +3,6 @@ share: true
 layout: default
 title: projects page
 order: 4
-permalink: /projects/
 ---
 <h2>Projects</h2>
 
