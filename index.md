@@ -1,7 +1,8 @@
 ---
 share: true
-layout: default
+layout: page
 title: home
+permalink: /home
 order: 1
 ---
 
