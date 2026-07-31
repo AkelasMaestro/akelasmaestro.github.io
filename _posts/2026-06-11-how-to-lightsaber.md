@@ -21,7 +21,7 @@ Google images of DIY lightsabers and maybe even official lightsabers from the mo
 
 Don't worry about the exact pieces they use; that leads to frustration when you can't find it at your local store. Do focus on general shapes and techniques.
 
-Some assembly methods will require tools you don't have or techniques that, for whatever reason, you don't like. I leave it up to you to decide what new skills you want to practice or tools you want to buy. Personally, I am a big fan of [following your tools] and working with what you already know or have. As you play with what you have, you will gradually learn new skills and the value of various tools.
+Some assembly methods will require tools you don't have or techniques that, for whatever reason, you don't like. I leave it up to you to decide what new skills you want to practice or tools you want to buy. Personally, I am a big fan of [following your tools](./2026-04-18-creation-is-king.md#) and working with what you already know or have. As you play with what you have, you will gradually learn new skills and the value of various tools.
 
 At some point, you'll get bored at looking at what others have done. At that point you are ready to move on to the next step.
 
