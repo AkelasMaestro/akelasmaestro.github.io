@@ -1,3 +1,4 @@
 domain: akelasmaestro.github.io
 url: https://akelasmaestro.github.io
 baseurl: /blog/
+theme: jekyll-theme-midnight

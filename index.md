@@ -2,7 +2,6 @@
 share: true
 layout: page
 title: home
-permalink: /home
 order: 1
 ---
 
