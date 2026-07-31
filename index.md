@@ -12,7 +12,7 @@ This is my place to keep all my thoughts and various projects
 organized and shareable. Creation is what makes us human and having an
 audience, even an unseen and anonymous one, helps motivate me to keep
 making things. Poke around, read the
-<a href="{% link about.md %}">about page</a>. 
+<a href="{% link about.md %}">about page</a>.
    If you like something or want to know more, feel free to
 reach out.
 </p>
@@ -25,7 +25,7 @@ reach out.
 </p>
 
 <p>
-For previous daily thoughts 
+For previous daily thoughts
 <a href="{% link _posts/2026-04-08-daily-blog.md %}">click here</a>.
 </p>
 
@@ -42,9 +42,10 @@ For previous daily thoughts
 
 {% for post in site.posts limit:5 %}
   {% unless post.path == "_posts/2026-04-08-daily-blog.md" %}
-    <p><a href="{{ post.url }}">{{ post.title }}</a>
-    <span class="postDate">{{ post.date | date: "%Y-%m-%d" }}. </span> <br>
-    {{ post.excerpt | strip_html }}
-    </p>
+  <p>
+  <a href="{{ post.url }}">{{ post.title }}</a>
+  <span class="postDate">{{ post.date | date: "%Y-%m-%d" }}.</span> <br>
+  {{ post.excerpt | strip_html }}
+  </p>
   {% endunless %}
 {% endfor %}
