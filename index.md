@@ -26,7 +26,7 @@ reach out.
 
 <p>
 For previous daily thoughts
-<a href="{% link posts/2026-04-08-daily-blog.md %}">click here</a>.
+<a href="{% link _posts/2026-04-08-daily-blog.md %}">click here</a>.
 </p>
 
 <h3>Featured Post</h3>
@@ -41,7 +41,7 @@ For previous daily thoughts
 <h3>Latest Posts:</h3>
 
 {% for post in site.posts limit:5 %}
-  {% unless post.path == "posts/2026-04-08-daily-blog.md" %}
+  {% unless post.path == "_posts/2026-04-08-daily-blog.md" %}
   <p>
   <a href="{{ post.url }}">{{ post.title }}</a>
   <span class="postDate">{{ post.date | date: "%Y-%m-%d" }}.</span> <br>
