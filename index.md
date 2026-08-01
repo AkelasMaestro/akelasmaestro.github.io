@@ -1,6 +1,6 @@
 ---
 share: true
-layout: page
+layout: default
 title: home
 order: 1
 ---
