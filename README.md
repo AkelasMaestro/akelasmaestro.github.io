@@ -1,5 +1,5 @@
-# blog
-Website files for blog posts and project reports.
+# Blog
+This is a personal blog for AkelasMaestro. I previously hosted my website on Neocities, but GitHub Pages made it easier to update and manage my site through the note taking app Obsidian, and the Obsidian plugin Enveloppe. Posts can be written in my notes app and pushed to the website with a single button. 
 
 ## Copyright and License
 
