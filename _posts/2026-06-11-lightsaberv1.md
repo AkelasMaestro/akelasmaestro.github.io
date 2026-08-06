@@ -8,7 +8,7 @@ date: 2026-06-11
 
 It cost US$40 and it's one of a kind.
 
-![Completed lightsaber]({{"/resources/lightsaberV1/LSv1-finished.jpg" | relative_url }})
+![Completed lightsaber](/resources/lightsaberV1/LSv1-finished.jpg)
 
 I came across some videos on YouTube showing people making custom lightsabers out of hardware found at Home Depot or Lowe's. Some looked really good and others were kind of bad, but they all looked like something I could do. So I did.
 
