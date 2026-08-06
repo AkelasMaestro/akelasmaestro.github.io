@@ -6,8 +6,7 @@ order: 5
 ---
 ## Links
 
-This page has a list of other sites or accounts I like to follow. You
-get a taste for my interests and I get quick access links. A win-win.
+This page has a list of other sites I like to follow or use. I set it as my browser's home page as a reminder not to doom scroll.
 
 ### Other Blogs
 
@@ -39,3 +38,11 @@ also some other blogs thrown in there.
 - [Image compressor](https://image-compressor.github.io/)
 - [Dithering, patterns, and gradients](https://doodad.dev/)
 - [Minecraft tools](https://www.minecraftmaps.com/tools)
+
+### Digital Maintenance
+
+- name and organize photos
+- sort music into playlists
+- delete unused apps
+- process old emails
+- close unused accounts
