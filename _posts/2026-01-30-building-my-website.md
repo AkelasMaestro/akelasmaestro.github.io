@@ -8,6 +8,10 @@ date: 2026-07-10
 
 A change log with commentary.
 
+## Update 2026-08-14
+
+I have migrated my website from Neocities to Github Pages. It makes updating my website's content easier [from my phone](/_posts/2026-08-14-mobile-friendly-blogging). I really like Neocities and want to support them, especially since GitHub is owned by Microsoft, but I couldn't find a workable method to update Neocities easily from my phone. Maybe once I have a home server set up, I can create a routine that will automatically build the site and push updates to Neocities. That would be my ideal, I think.
+
 ## Update 2026-07-10
 
 Today was mostly about visual changes and tweaks. I settled on a what I think is a better color palette, updated the line spacing so lists of articles are easier to read, and changed the size of images. If you're not seeing a blue background, hard refresh the website or delete your browser data. I thought there was some issue with Neocities when testing the site, but learned that once you've visited the site, your browser saves a bunch of stuff so it doesn't have to reload it constantly.
