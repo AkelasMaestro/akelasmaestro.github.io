@@ -8,10 +8,9 @@ order: 5
 
 This page has a list of other sites I like to follow or use. I set it as my browser's home page as a reminder not to doom scroll.
 
-### Other Blogs
+### Other Sites
 
-These are some of the Neocities I've come across and think are cool. There's
-also some other blogs thrown in there.
+These are some websites I've across and like.
 
 - [Dudalog](https://dudalog.neocities.org/en/home/)
 - [CreepingNet](https://creepingnet.neocities.org/)
@@ -21,6 +20,9 @@ also some other blogs thrown in there.
 - [McMansion Hell](mcmansionhell.com)
 - [Organic Architecture](https://www.oshatz.com/index.htm)
 - [Threehalves](satyress.com)
+- [True Size](thetruesize.com)
+- [Yacht Design](https://georgebuehler.com/)
+
 ### YouTube Channels
 
 - [Technology Connections](https://www.youtube.com/@TechnologyConnections)
