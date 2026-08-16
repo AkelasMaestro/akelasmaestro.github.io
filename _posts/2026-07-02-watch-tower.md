@@ -152,3 +152,11 @@ Ensuring rotational symmetry requires additional preparation before raising the 
 A big thank you to my cousin and FIL who provided tools, bamboo, land, labor, and helped in the problem solving. Our respective wives, while not directly involved, made lunches, brought water, and reminded us when it was time to slow down to rest or take safety precautions. This was a group effort and I am grateful to everyone that helped make this vision come to life.
 
 All the best, Akelas.
+
+### Month and a Half Later
+
+It is August 16th and I had the opportunity to inspect the tower again. Half of the bamboo has changed color to a dusty brown from the vibrant green or yellow it used to be. The bambot has also dried out and shrunk making all the lashings loose. Naturally, I climbed up to the top.
+
+Every ladder rung slips, the floor boards spin, and the whole thing wobbles. I was able to tighten up some of lashings at the top of the ladder, the handrails, and green structural supports we added at the end. All that worked together to make it comfortable to hang out in top for a minute but it clearly won't last very long.
+
+My cousin, who owns the farm where the tower is built, wants to keep it up a little longer. He reports a lot of the neighbors comment on it and like to see it, but agrees it is no longer suitable to climb. He'll bring it down in a week or two probably to harvest and repurpose the ropes before they deteriorate too much in the sun.
