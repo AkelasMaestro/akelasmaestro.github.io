@@ -6,6 +6,10 @@ date: 2026-04-18
 tags:
   - Website-Ideas
 ---
+2026-08-16. We're into the last few days of our Brazil trip. The last couple months and a bit have been an absolute dream and a once-in-a-lifetime experience. I got to meet family, they got to meet me, and I was able to experience Brazil in a way tourists never do.
+
+2026-08-08. I've been working on a horse ranch for the MCTranspo server and tomorrow I get to ride with some cousins in a cavalgada! I've been looking forward to horse riding again for months and now it'll be part of a community riding event!
+
 2026-07-10. Finally got around to updating the colors on the site and they are much better. Eventually I add some sort of pattern to fill up the empty space on either side when the site is full screen. Could I add side bars? Yes. Do I want them? No.
 
 2026-06-14. Second lightsaber is done! The full report and photos will come in the next couple days.
