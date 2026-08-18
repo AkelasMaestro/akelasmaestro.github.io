@@ -60,11 +60,11 @@ Note: Belly meat is mostly fat. Unless you know that's what you want, I recommen
 - wing/wingnette (asa)
 - wing/drumette (drumete)
 
-Season with course salt, lemon pepper, smoked paprika, chimmichurri and oil. Put everything in a bag and shake to apply.
+Season with course salt, lemon pepper, smoked paprika, chimmichurri and oil. For one kilo of chicken, use a half teaspoon of each seasoning, a full teaspoon of salt, and a tablespoon of oil. Mix the seasonings and oil together, put the mixture in a bag with the chicken and shake or massage the bag to blend everything together. Vegetable or sunflower oil is what's commonly used in Brazil partly as a cost saving measure and partly because olive oil has a strong flavor. Feel free to adjust the seasonings to your preference.
 
-Fun fact: this is how I learned there are separate words for the different parts of a chicken wing.
+**Fun fact:** this is how I learned there are separate words for the different parts of a chicken wing.
 
-Note: I know chicken hearts are not common in American cuisine, but I strongly recommend trying them out! Remember to season them the same as the wings and grill them on skewers.
+**Note:** I know chicken hearts are not common in American cuisine, but they are easily my favorite barbecue item! Season them the same as the wings and grill them on skewers.
 
 ![Portuguese chicken cuts diagram](/resources/meat_cuts/cortes_do_frango.jpg)
 
