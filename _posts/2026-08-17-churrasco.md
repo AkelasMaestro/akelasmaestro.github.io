@@ -105,11 +105,11 @@ Churrasco is not a science. You're putting meat over heat until it's cooked; pre
 
 **Charcoal is not a requirement.** I have only seen small charcoal grills used in Brazil, but that is a cost saving measure rather than a deliberate choice. The cheapest gas grill we found online (I haven't seen any in store anywhere) was 4x the cost of a comparable model in the US. My FIL would prefer the convenience of gas if it was available. I'm vaguely aware there's debate amongst Americans on charcoal vs. gas, but with high fire risk in Utah, I am also opting for the convenience of gas. 
 
-Fun fact, a grill is called a "churrascaria" in Portuguese. They commonly take the form of a heavy gauge metal bowl on four legs. The grilling surface is a sheet of metal with 1-in holes throughout. The metal sheet has wooden handles and rests on top of four vertical supports. The sheet is kept as a separate piece for easy cleaning, usually done with a water hose and a literal brick.
+Fun fact, a grill is called a "churrascaria" in Portuguese. They commonly take the form of a heavy gauge metal bowl on four legs. The grilling surface is a sheet of metal with 1-in holes throughout. The metal sheet has wooden handles and rests on top of four vertical supports. The sheet is kept as a separate piece for easy cleaning, usually done with a water hose and a literal brick. The brick is surprisingly effective and seems to work as a sort of ablative scrubber.
 
 ![Akelas and FIL at the churrascaria](/resources/meat_cuts/churrascaria.jpg)
 
-**Knock excess salt off** the meat before taking it off the grill to serve. This can be accomplished by eating the top of the meat with your preferred grilling tool. 
+**Knock excess salt off** the meat before taking it off the grill to serve. This can be accomplished by beating the top of the meat with your preferred grilling tool. 
 
 **Flip the meat** when blood starts to collect on top. Thicker meat takes longer to pool blood, so if the piece is thick enough you'll need to flip it before blood starts to collect. I've heard Americans claim you should only flip the meat once. My Brazilian family has no such requirement, but be patient. Flipping it repeatedly won't cook the meat any faster.
 
