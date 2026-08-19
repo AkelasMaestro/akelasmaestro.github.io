@@ -17,7 +17,7 @@ These are some websites I've across and like.
 - [Pixelina](https://pixalina.neocities.org/)
 - [Practical Betterments](https://practicalbetterments.com/)
 - [Endtimes](https://endtimes.dev/)
-- [McMansion Hell](mcmansionhell.com)
+- [McMansion Hell](https://mcmansionhell.com/)
 - [Organic Architecture](https://www.oshatz.com/index.htm)
 - [Threehalves](satyress.com)
 - [True Size](thetruesize.com)
