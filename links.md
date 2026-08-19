@@ -22,6 +22,8 @@ These are some websites I've across and like.
 - [Threehalves](satyress.com)
 - [True Size](thetruesize.com)
 - [Yacht Design](https://georgebuehler.com/)
+- [XKCD (Mobile site)](m.xkcd.com)
+- [Order of the Stick](https://www.giantitp.com/comics/oots.html)
 
 ### YouTube Channels
 
