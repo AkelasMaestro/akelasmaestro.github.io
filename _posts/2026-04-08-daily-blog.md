@@ -6,7 +6,9 @@ date: 2026-04-18
 tags:
   - Website-Ideas
 ---
-2026-08-22. It's good to be home. I celebrated with a new Lego set: the V-19 Torrent, a Star Wars the Clone Wars set. I don't have much clone wars in my collection, so it felt good to round it out a little.
+2026-09-03. The first days of the semester are always a bit chaotic. Last semester, I put my day's tasks in a weekly agenda, but that required knowing how to prioritize things. This time, I just put all my deadlines in my agenda. If I checked all my boxes for today, I am good for tomorrow. If I have more time, I can work ahead. Makes prioritizing much easier.
+
+2026-08-22. It's good to be home. I celebrated with a new Lego set: the V-19 Torrent, a Star Wars the Clone Wars set. I don't have much clone wars in my collection, so it felt good to round it out a little. 
 
 2026-08-16. We're into the last few days of our Brazil trip. The last couple months and a bit have been an absolute dream and a once-in-a-lifetime experience. I got to meet family, they got to meet me, and I was able to experience Brazil in a way tourists never do.
 
