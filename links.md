@@ -6,7 +6,18 @@ order: 5
 ---
 ## Links
 
-This page has a list of other sites I like to follow or use. I set it as my browser's home page as a reminder not to doom scroll.
+This page started out as a list of other sites I like to follow or use. Then I set it as my browser's home page as an alternative to doom scrolling, so I added a list of non-internet things I forget to do.
+
+### Non-Internet Things
+
+- read the books I borrowed
+- write a new article
+- review my misc. task list
+- name and organize photos
+- sort music into playlists
+- delete unused apps
+- process old emails
+- close unused accounts
 
 ### Other Sites
 
@@ -24,13 +35,8 @@ These are some websites I've across and like.
 - [Yacht Design](https://georgebuehler.com/)
 - [XKCD (Mobile site)](m.xkcd.com)
 - [Order of the Stick](https://www.giantitp.com/comics/oots.html)
-
-### YouTube Channels
-
-- [Technology Connections](https://www.youtube.com/@TechnologyConnections)
-- [Practical Engineering](https://www.youtube.com/@PracticalEngineeringChannel)
-- [Our Own Devices](https://www.youtube.com/@OurOwnDevices1)
-- [Stewart Hicks](https://www.youtube.com/channel/UCYAm24PkejQR2xMgJgn7xwg)
+- [cloudhiker](https://cloudhiker.net/)
+- [EconGraphs]([Sketching a Function: Critical Points, Asymptotes, and Curvature - EconGraphs](https://www.econgraphs.org/textbooks/econ50Qfall24/week1/lecture2/sketching))
 
 ### Music
 
@@ -43,10 +49,10 @@ These are some websites I've across and like.
 - [Dithering, patterns, and gradients](https://doodad.dev/)
 - [Minecraft tools](https://www.minecraftmaps.com/tools)
 
-### Digital Maintenance
+### YouTube Channels
 
-- name and organize photos
-- sort music into playlists
-- delete unused apps
-- process old emails
-- close unused accounts
+- [Technology Connections](https://www.youtube.com/@TechnologyConnections)
+- [Practical Engineering](https://www.youtube.com/@PracticalEngineeringChannel)
+- [Our Own Devices](https://www.youtube.com/@OurOwnDevices1)
+- [Stewart Hicks](https://www.youtube.com/channel/UCYAm24PkejQR2xMgJgn7xwg)
+- [Sublight Drive Crafts](https://www.youtube.com/@Sublight_Drive/videos)
