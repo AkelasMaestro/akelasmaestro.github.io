@@ -33,10 +33,13 @@ These are some websites I've across and like.
 - [Threehalves](satyress.com)
 - [True Size](thetruesize.com)
 - [Yacht Design](https://georgebuehler.com/)
-- [XKCD (Mobile site)](m.xkcd.com)
+- [XKCD (Mobile site)](https://m.xkcd.com/)
 - [Order of the Stick](https://www.giantitp.com/comics/oots.html)
 - [cloudhiker](https://cloudhiker.net/)
 - [EconGraphs]([Sketching a Function: Critical Points, Asymptotes, and Curvature - EconGraphs](https://www.econgraphs.org/textbooks/econ50Qfall24/week1/lecture2/sketching))
+- [Boytacean](https://boytacean.joao.me/)
+- [Open Chaos](https://www.openchaos.dev/#votes)
+
 
 ### Music
 
