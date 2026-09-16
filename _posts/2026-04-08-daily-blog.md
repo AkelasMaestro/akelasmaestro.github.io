@@ -6,6 +6,12 @@ date: 2026-04-18
 tags:
   - Website-Ideas
 ---
+2026-09-16. I was able to attend AREMA 2026. It's one of three major railroad organizations but the only one with a strong student program. Met up with old friends, met new ones, and endless networking. It was fun, but I am glad to be home.
+
+2026-09-10. It feels good to work, to always have something to do. I was worried my over-full schedule this semester would be too much, but I like knowing what I need to do next. Better than waiting for the next thing to happen.
+
+2026-09-05. I love TIE fighters from the Star Wars Franchise. Those, and the Siths' red lightsabers, just hit a certain aesthetics scratch for me.
+
 2026-09-03. The first days of the semester are always a bit chaotic. Last semester, I put my day's tasks in a weekly agenda, but that required knowing how to prioritize things. This time, I just put all my deadlines in my agenda. If I checked all my boxes for today, I am good for tomorrow. If I have more time, I can work ahead. Makes prioritizing much easier.
 
 2026-08-22. It's good to be home. I celebrated with a new Lego set: the V-19 Torrent, a Star Wars the Clone Wars set. I don't have much clone wars in my collection, so it felt good to round it out a little. 
