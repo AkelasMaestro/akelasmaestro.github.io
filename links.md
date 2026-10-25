@@ -44,6 +44,8 @@ These are some websites I've across and like.
 - [Income Calculator](https://smartasset.com/taxes/utah-paycheck-calculator)
 - [The Art of Manliness](https://www.artofmanliness.com/)
 - [Atomic Rockets](https://projectrho.com/public_html/rocket/)
+- [The Discovery of Hydrothermal Vents](https://www.whoi.edu/feature/history-hydrothermal-vents/index.html)
+- [Viking History blog](https://www.hurstwic.com/history/text/history.htm)
 
 
 ### Music
