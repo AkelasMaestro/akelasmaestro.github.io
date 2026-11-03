@@ -3,9 +3,15 @@ title: Thought of the Day
 layout: post
 categories: daily-thought
 date: 2026-04-18
-tags:
-  - Website-Ideas
+share: true
 ---
+
+2026-11-02. I've realized that I have been so caught up on posting perfect, finished work, that I have stopped posting entirely. Writing is a thinking process, not a thought process. 
+
+2026-10-30. I TA for an intro to programming class and we're developing a unit on how to effectively use AI to make web apps. I have to say, it is really cool. I might try some of the techniques on this site to implement quality of life features like dark mode. Don't worry though, the content will stay my own.
+
+2026-10-28. Activity is not necessarily accomplishment. Take a moment to consider where you want to go and where your time would be best spent to make it happen.
+
 2026-10-21. I used a modern flip phone for a few days. It was a good experience in that I learned more about myself and my relationship to my phone. I'm post a full report soon.
 
 2026-10-07. Midterm elections are coming! Make sure you're registered and read up on the candidates in your area. 
