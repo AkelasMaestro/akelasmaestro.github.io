@@ -5,7 +5,6 @@ author: Akelas Maestro
 categories: blog
 layout: post
 ---
-#Website-Ideas #drafts 
 
 This is one of those life principle things that is both sound advice and a deeper metaphor. 
 
