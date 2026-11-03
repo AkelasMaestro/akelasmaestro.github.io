@@ -31,7 +31,7 @@ For previous daily thoughts
 
 <h3>Featured Post</h3>
 
-{% assign featured_post = site.posts | where: "title", "2026 June Update" | first %}
+{% assign featured_post = site.posts | where: "title", "Have a Good Wallet" | first %}
 <p>
 <a href="{{ featured_post.url }}">{{ featured_post.title }}</a>
 <span class="postDate">{{ featured_post.date | date: "%Y-%m-%d" }}. </span> <br>
