@@ -10,7 +10,7 @@ Yeah, no. You're not. (Affectionate)
 
 In preparation for our trip to Brazil, my wife reminded me that I am not an American, I am a United-States-ian. People from South America are Americans too. This is a sentiment we both heard a lot in Uruguay back in 2019, so I didn't argue. When it has come up, I say I am from the United States rather than simply claiming to be an American. This sentiment has always felt silly to me, but hey, when in Rome, right?
 
-Well, it turns out my wife was wrong and, in a childish way, I feel vindicated. Every time my father-in-law has introduced me to family, he has always called me an American and none of the family has made the slightest comment to the contrary, as compared to Uruguay where anyone and everyone were very quick to correct me. When I teased my wife about it, she realized that she also hadn't heard of the idea that all South Americans are Americans until she had visited Uruguay.
+Well, it turns out my wife was wrong and, in a childish way, I feel vindicated. Every time my father-in-law has introduced me to family, he has always called me an American and none of the family has made the slightest comment to the contrary, as compared to Uruguay where anyone and everyone were very quick to correct me. When I teased my wife about it, she realized that she hadn't heard of the idea that all South Americans are Americans until she had visited Uruguay.
 
 I don't know if it is just Uruguay or all the Spanish-speaking South American nations that hold this sentiment, but it seems that Brazil, or at least the small part with which I have interacted, does not and I am grateful. I don't fully know why, but claiming South Americans are Americans is one of my irrational pet peeves.
 
@@ -28,3 +28,5 @@ If anyone reading this has a meaningful response, please feel free to reach out.
 
 All the best,
 Akelas
+
+**Editor's note, 2026-11-03:** It's been a few months, and my feelings have mellowed. Through out the few months in Brazil, I still introduced myself as a United-Statesian and my family turned around and immediately introduced me as an American. 
