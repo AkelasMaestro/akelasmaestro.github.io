@@ -1,6 +1,6 @@
 ---
 title: International Exchange Rates
-date: 2026-11-02
+date: 2026-11-03
 author: Akelas Maestro
 categories: blog
 layout: post
