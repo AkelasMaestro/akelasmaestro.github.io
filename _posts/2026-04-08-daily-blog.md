@@ -5,6 +5,7 @@ categories: daily-thought
 date: 2026-04-18
 share: true
 ---
+2026-11-04. I love a good research project. It feels good to learn and have facts to support an opinion. 
 
 2026-11-02. I've realized that I have been so caught up on posting perfect, finished work, that I have stopped posting entirely. Writing is a thinking process, not a thought process. 
 
