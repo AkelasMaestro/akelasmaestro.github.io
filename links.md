@@ -35,6 +35,7 @@ These are some websites I've across and like.
 - [Atomic Rockets](https://projectrho.com/public_html/rocket/){:target="_blank" rel="noopener"}
 - [The Discovery of Hydrothermal Vents](https://www.whoi.edu/feature/history-hydrothermal-vents/index.html){:target="_blank" rel="noopener"}
 - [Viking History blog](https://www.hurstwic.com/history/text/history.htm){:target="_blank" rel="noopener"}
+- [Minecraft 1.7.3 Beta Wiki](https://lochlainnb.github.io/b1.7.3Wiki/){:target="blank" rel="noopener"}
 
 
 ### Music
