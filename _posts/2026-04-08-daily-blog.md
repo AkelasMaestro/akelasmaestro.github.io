@@ -5,6 +5,8 @@ categories: daily-thought
 date: 2026-04-18
 share: true
 ---
+2026-11-05. I am really vibin' with the whole Golden Age of Minecraft trend going on. I spun up a new world in Beta 1.7.3 and the nostalgia is real. It's also on theme for me right now as I seek out ways to simplify the world around me.
+
 2026-11-04. I love a good research project. It feels good to learn and have facts to support an opinion. 
 
 2026-11-02. I've realized that I have been so caught up on posting perfect, finished work, that I have stopped posting entirely. Writing is a thinking process, not a thought process. 
