@@ -13,7 +13,7 @@ I often day dream of living frugally, saving as much as possible, and retiring e
 
 This will also be an opportunity to branch into using JavaScript in this otherwise very basic website. Yes, the calculator will be nice once it's done, but I'm also looking forward to using it as a learning opportunity.
 
-I did make an initial prototype using AI. You can find it [here](../2026-03-25-old-finance-calculator.md#). It doesn't have all the features I'd like and I'm not certain the math is accurate, but it gets the vision across.
+I did make an initial prototype using AI. You can find it [here](../2026-03-25-old-finance-calculator.md##). It doesn't have all the features I'd like and I'm not certain the math is accurate, but it gets the vision across.
 
 ### Overall Design
 
