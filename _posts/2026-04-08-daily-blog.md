@@ -5,6 +5,8 @@ categories: daily-thought
 date: 2026-04-18
 share: true
 ---
+2026-11-10. Game Weekend is upon us once more! I'm looking forward to a weekend of good times with good friends. Just means I am rushing to get my work done before the trip.
+
 2026-11-05. I am really vibin' with the whole Golden Age of Minecraft trend going on. I spun up a new world in Beta 1.7.3 and the nostalgia is real. It's also on theme for me right now as I seek out ways to simplify the world around me.
 
 2026-11-04. I love a good research project. It feels good to learn and have facts to support an opinion. 
