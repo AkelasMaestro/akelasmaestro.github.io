@@ -22,9 +22,9 @@ reach out.
 <p>
  Here some quick links to game selection spinners: <br>
  
- <a href="{https://missingdice.com/spin-the-wheel/?values=Age%20of%20Mythology+Among%20Us+Hoard+Killing%20Floor%202+Last%20Train%20Outta%20Wormtown+Lort+Obilteracers+Peak+Rocket%20League+Strange%20Brigade+Super%20Battle%20Golf+Tanks%20the%20Crusade+Total%20War%20Warhammer%203+Albion+Beyond%20All%20Reason+Call%20of%20Duty%202+Counter%20Strike+Dota%202+Isonzo+Starship%20Troopers%20Extermination}">All games</a><br>
+ <a href="https://missingdice.com/spin-the-wheel/?values=Age%20of%20Mythology+Among%20Us+Hoard+Killing%20Floor%202+Last%20Train%20Outta%20Wormtown+Lort+Obilteracers+Peak+Rocket%20League+Strange%20Brigade+Super%20Battle%20Golf+Tanks%20the%20Crusade+Total%20War%20Warhammer%203+Albion+Beyond%20All%20Reason+Call%20of%20Duty%202+Counter%20Strike+Dota%202+Isonzo+Starship%20Troopers%20Extermination">All games</a><br>
 
-<a href="{https://missingdice.com/spin-the-wheel/?values=Among%20Us+Hoard+Obilteracers+Rocket%20League+Super%20Battle%20Golf+Tanks%20the%20Crusade+Albion+Call%20of%20Duty%202+Counter%20Strike+Isonzo}">Shorter games</a><br>
+<a href="https://missingdice.com/spin-the-wheel/?values=Among%20Us+Hoard+Obilteracers+Rocket%20League+Super%20Battle%20Golf+Tanks%20the%20Crusade+Albion+Call%20of%20Duty%202+Counter%20Strike+Isonzo">Shorter games</a><br>
 </p>
 
 <h3>Thought of the Day</h3>
