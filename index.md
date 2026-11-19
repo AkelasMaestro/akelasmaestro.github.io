@@ -52,5 +52,5 @@ For previous daily thoughts
 
 <h3>Utilities</h3>
 <p>
-<a href="spinners.html">Game Weekend Spinners</a>
+<a href="spinner.html">Game Weekend Spinners</a>
 </p>
