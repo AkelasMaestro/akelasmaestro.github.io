@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="en" data-theme="default">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Game Spinner</title>
+  <style>
+    :root {
+      --primary-color: #2a4365;
+      --secondary-color: #263d36;
+      --accent-color: #faa916;
+      --text1: #f3eff5;
+      --text2: #f7f2ef;
+      --panel-border: rgba(247, 242, 239, 0.18);
+      --panel-background: rgba(38, 61, 54, 0.72);
+      --game-row-background: rgba(42, 67, 101, 0.78);
+      --highlight-background: rgba(250, 169, 22, 0.14);
+      --muted-background: rgba(38, 61, 54, 0.45);
+      --muted-border: rgba(247, 242, 239, 0.08);
+      --muted-color: rgba(247, 242, 239, 0.48);
+      --remove-border: rgba(247, 242, 239, 0.45);
+      --button-text-color: #1f1f1f;
+    }
+
+    :root[data-theme="dark"] {
+      --primary-color: #111318;
+      --secondary-color: #20242c;
+      --accent-color: #80cbc4;
+      --text1: #e8eaed;
+      --text2: #f5f6f7;
+      --panel-border: rgba(232, 234, 237, 0.18);
+      --panel-background: rgba(32, 36, 44, 0.94);
+      --game-row-background: rgba(255, 255, 255, 0.055);
+      --highlight-background: rgba(128, 203, 196, 0.13);
+      --muted-background: rgba(255, 255, 255, 0.025);
+      --muted-border: rgba(232, 234, 237, 0.08);
+      --muted-color: rgba(232, 234, 237, 0.48);
+      --remove-border: rgba(255, 255, 255, 0.42);
+      --button-text-color: #101318;
+    }
+
+    :root[data-theme="light"] {
+      --primary-color: #f3f5f9;
+      --secondary-color: #e0e6ef;
+      --accent-color: #8a4b00;
+      --text1: #253047;
+      --text2: #172033;
+      --panel-border: rgba(37, 48, 71, 0.18);
+      --panel-background: rgba(255, 255, 255, 0.82);
+      --game-row-background: rgba(42, 67, 101, 0.08);
+      --highlight-background: rgba(138, 75, 0, 0.12);
+      --muted-background: rgba(38, 61, 54, 0.06);
+      --muted-border: rgba(37, 48, 71, 0.12);
+      --muted-color: rgba(37, 48, 71, 0.5);
+      --remove-border: rgba(37, 48, 71, 0.3);
+      --button-text-color: #ffffff;
+    }
+
+    :root[data-theme="pink"] {
+      --primary-color: #f9e3ed;
+      --secondary-color: #ecc4d5;
+      --accent-color: #8e2450;
+      --text1: #49283a;
+      --text2: #321727;
+      --panel-border: rgba(73, 40, 58, 0.18);
+      --panel-background: rgba(255, 255, 255, 0.66);
+      --game-row-background: rgba(142, 36, 80, 0.08);
+      --highlight-background: rgba(142, 36, 80, 0.12);
+      --muted-background: rgba(142, 36, 80, 0.05);
+      --muted-border: rgba(73, 40, 58, 0.12);
+      --muted-color: rgba(73, 40, 58, 0.5);
+      --remove-border: rgba(73, 40, 58, 0.3);
+      --button-text-color: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      background: var(--primary-color);
+      color: var(--text1);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    .app {
+      width: min(960px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0;
+    }
+
+    h1 {
+      margin: 0 0 20px;
+      color: var(--text2);
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 230px minmax(0, 1fr);
+      gap: 24px;
+      align-items: start;
+    }
+
+    .filters,
+    .panel {
+      border: 1px solid var(--panel-border);
+      border-radius: 12px;
+      background: var(--panel-background);
+      padding: 18px;
+    }
+
+    .theme-control {
+      display: grid;
+      gap: 6px;
+      margin-bottom: 18px;
+      font-weight: 650;
+    }
+
+    .theme-control select {
+      width: 100%;
+      min-height: 40px;
+      border: 1px solid var(--panel-border);
+      border-radius: 8px;
+      padding: 8px 10px;
+      background: var(--secondary-color);
+      color: var(--text2);
+      font: inherit;
+      font-weight: 500;
+    }
+
+    .filters h2,
+    .selected h2 {
+      margin: 0 0 12px;
+      font-size: 1rem;
+    }
+
+    .filter-list {
+      display: grid;
+      gap: 10px;
+    }
+
+    .filter-option {
+      display: flex;
+      gap: 9px;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    input[type="radio"] {
+      width: 18px;
+      height: 18px;
+      accent-color: var(--accent-color);
+    }
+
+    .actions {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 18px;
+    }
+
+    .actions button {
+      width: 100%;
+    }
+
+    button {
+      min-height: 42px;
+      border: 0;
+      border-radius: 8px;
+      padding: 10px 16px;
+      background: var(--accent-color);
+      color: var(--button-text-color);
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    button.secondary {
+      background: transparent;
+      border: 1px solid var(--text2);
+      color: var(--text2);
+    }
+
+    button:disabled {
+      cursor: not-allowed;
+      opacity: 0.45;
+    }
+
+    button:focus-visible,
+    input:focus-visible,
+    select:focus-visible,
+    .remove-button:focus-visible {
+      outline: 3px solid var(--text2);
+      outline-offset: 3px;
+    }
+
+    .selected {
+      min-height: 94px;
+      margin-bottom: 16px;
+      border-radius: 12px;
+      background: var(--secondary-color);
+      padding: 14px 18px;
+    }
+
+    .selected-name {
+      min-height: 38px;
+      color: var(--accent-color);
+      font-size: clamp(1.35rem, 4vw, 2rem);
+      font-weight: 900;
+    }
+
+    .game-list {
+      display: grid;
+      gap: 4px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .game-row {
+      min-height: 58px;
+      display: grid;
+      grid-template-columns: 28px minmax(0, 1fr) 44px;
+      align-items: center;
+      gap: 8px;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      padding: 8px 10px;
+      background: var(--game-row-background);
+    }
+
+    .game-row.highlighted {
+      border-color: var(--accent-color);
+      background: var(--highlight-background);
+    }
+
+    .game-name {
+      overflow-wrap: anywhere;
+    }
+
+    .game-row.highlighted .game-name,
+    .game-row.final .game-name {
+      font-size: 1.12em;
+      font-weight: 900;
+    }
+
+    .arrow {
+      visibility: hidden;
+      color: var(--accent-color);
+      font-size: 1.5rem;
+      line-height: 1;
+      transform: rotate(180deg);
+    }
+
+    .game-row.highlighted .arrow,
+    .game-row.final .arrow {
+      visibility: visible;
+    }
+
+    .game-row.removed,
+    .game-row.selected {
+      min-height: 36px;
+      border-color: var(--muted-border);
+      background: var(--muted-background);
+      grid-template-columns: 28px minmax(0, 1fr);
+      padding-top: 4px;
+      padding-bottom: 4px;
+    }
+
+    .game-row.removed .game-name,
+    .game-row.selected .game-name {
+      color: var(--muted-color) !important;
+      text-decoration: line-through !important;
+    }
+
+    .game-row.removed .remove-button,
+    .game-row.selected .remove-button {
+      display: none;
+    }
+
+    .remove-button {
+      width: 36px;
+      min-height: 36px;
+      border: 1px solid var(--remove-border);
+      padding: 0;
+      background: transparent;
+      color: var(--text2);
+      font-size: 1.25rem;
+      line-height: 1;
+    }
+
+    .empty {
+      margin: 8px 0;
+      color: var(--text2);
+      text-align: center;
+      opacity: 0.82;
+    }
+
+    @media (max-width: 680px) {
+      .app {
+        width: min(100% - 20px, 960px);
+        padding: 20px 0;
+      }
+
+      .layout {
+        grid-template-columns: 1fr;
+      }
+
+      .filter-list {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .actions {
+        width: 100%;
+        flex-direction: row;
+      }
+
+      .actions button {
+        flex: 1;
+      }
+    }
+
+    @media (max-width: 390px) {
+      .filter-list {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      * {
+        scroll-behavior: auto !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <h1>Game Spinner</h1>
+    <div class="layout">
+      <aside class="filters" aria-label="Game filters">
+        <label class="theme-control" for="theme-select">
+          Color theme
+          <select id="theme-select">
+            <option value="default">Default</option>
+            <option value="dark">Dark</option>
+            <option value="light">Light</option>
+            <option value="pink">Pink</option>
+          </select>
+        </label>
+        <h2>Filters</h2>
+        <div class="filter-list" id="filter-list">
+          <label class="filter-option"><input type="radio" name="filter" value="all"> All games</label>
+          <label class="filter-option"><input type="radio" name="filter" value="2-4"> 2-4 players</label>
+          <label class="filter-option"><input type="radio" name="filter" value="5+"> 5+ players</label>
+          <label class="filter-option"><input type="radio" name="filter" value="casual" checked> Casual</label>
+          <label class="filter-option"><input type="radio" name="filter" value="rts"> RTS</label>
+          <label class="filter-option"><input type="radio" name="filter" value="fps"> FPS</label>
+        </div>
+        <div class="actions">
+          <button type="button" id="spin-button">Spin</button>
+          <button type="button" id="reset-button" class="secondary">Reset</button>
+        </div>
+      </aside>
+
+      <section>
+        <div class="selected" aria-live="polite">
+          <h2>Selected game</h2>
+          <div class="selected-name" id="selected-name">Ready to spin</div>
+        </div>
+        <div class="panel">
+          <ul class="game-list" id="game-list" aria-label="Eligible games"></ul>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    const games = [
+      { name: "Rocket League", players: "5+", genre: "casual" },
+      { name: "Among Us", players: "5+", genre: "casual" },
+      { name: "Age of Mythology", players: "5+", genre: "RTS" },
+      { name: "Hoard", players: "2-4", genre: "casual" },
+      { name: "Killing Floor 2", players: "5+", genre: "FPS" },
+      { name: "Last Train Outta Wormtown", players: "5+", genre: "casual" },
+      { name: "Lort", players: "5+", genre: "casual" },
+      { name: "Obiliteracers", players: "5+", genre: "casual" },
+      { name: "Peak", players: "2-4", genre: "casual" },
+      { name: "Strange Brigade", players: "2-4", genre: "FPS" },
+      { name: "Super Battle Golf", players: "5+", genre: "casual" },
+      { name: "Tanks the Crusade", players: "5+", genre: "casual" },
+      { name: "Total War Warhammer 3", players: "5+", genre: "RTS" },
+      { name: "Albion", players: "5+", genre: "casual" },
+      { name: "Beyond All Reason", players: "5+", genre: "RTS" },
+      { name: "Call of Duty 2", players: "5+", genre: "FPS" },
+      { name: "Counter Strike", players: "5+", genre: "FPS" },
+      { name: "Dota 2", players: "5+", genre: "MOBA" },
+      { name: "League of Legends", players: "5+", genre: "MOBA" },
+      { name: "Isonzo", players: "5+", genre: "FPS" },
+      { name: "Starship Troopers", players: "5+", genre: "FPS" }
+    ];
+    games.sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: "base" }));
+
+    const filterInputs = [...document.querySelectorAll('input[name="filter"]')];
+    const themeSelect = document.getElementById("theme-select");
+    const gameList = document.getElementById("game-list");
+    const selectedName = document.getElementById("selected-name");
+    const selectedDisplay = document.querySelector(".selected");
+    const spinButton = document.getElementById("spin-button");
+    const resetButton = document.getElementById("reset-button");
+    const removedStorageKey = "spinner-temporarily-removed";
+    const selectedStorageKey = "spinner-selected-games";
+
+    let temporarilyRemoved = new Set(readStoredNames(removedStorageKey));
+    let selectedGames = new Set(readStoredNames(selectedStorageKey));
+    let currentSelection = null;
+    let isSpinning = false;
+    let spinToken = 0;
+    let audioContext;
+
+    themeSelect.addEventListener("change", () => {
+      document.documentElement.dataset.theme = themeSelect.value;
+    });
+
+    function readStoredNames(key) {
+      try {
+        return JSON.parse(sessionStorage.getItem(key) || "[]");
+      } catch {
+        return [];
+      }
+    }
+
+    function storeNames(key, names) {
+      sessionStorage.setItem(key, JSON.stringify([...names]));
+    }
+
+    function getSelectedFilters() {
+      const selected = filterInputs.find((input) => input.checked);
+      return new Set(selected ? [selected.value] : []);
+    }
+
+    function matchesFilters(game, filters) {
+      if (filters.has("all")) return true;
+      if (filters.size === 0) return false;
+
+      return (
+        (filters.has("fps") && game.genre.toUpperCase() === "FPS") ||
+        (filters.has("2-4") && game.players === "2-4") ||
+        (filters.has("5+") && game.players === "5+") ||
+        (filters.has("casual") && game.genre.toUpperCase() === "CASUAL") ||
+        (filters.has("rts") && game.genre.toUpperCase() === "RTS")
+      );
+    }
+
+    function getEligibleGames() {
+      const filters = getSelectedFilters();
+      return games.filter((game) =>
+        matchesFilters(game, filters) &&
+        !temporarilyRemoved.has(game.name) &&
+        !selectedGames.has(game.name)
+      );
+    }
+
+    function renderList(highlightName = null, finalName = null) {
+      const eligible = getEligibleGames();
+      const filters = getSelectedFilters();
+      const matchingGames = games.filter((game) => matchesFilters(game, filters));
+      const availableGames = matchingGames.filter((game) =>
+        !temporarilyRemoved.has(game.name) &&
+        (!selectedGames.has(game.name) || game.name === currentSelection)
+      );
+      const removedGames = matchingGames.filter((game) =>
+        temporarilyRemoved.has(game.name) ||
+        (selectedGames.has(game.name) && game.name !== currentSelection)
+      );
+      const displayed = [...availableGames, ...removedGames];
+      gameList.replaceChildren();
+
+      if (displayed.length === 0) {
+        const message = document.createElement("li");
+        message.className = "empty";
+        message.textContent = filters.size === 0
+          ? "Select a filter to show games."
+          : "No eligible games remain.";
+        gameList.append(message);
+      } else {
+        for (const game of displayed) {
+          const row = document.createElement("li");
+          row.className = "game-row";
+          row.dataset.name = game.name;
+          if (temporarilyRemoved.has(game.name)) row.classList.add("removed");
+          if (selectedGames.has(game.name) && game.name !== currentSelection) {
+            row.classList.add("selected");
+          }
+          if (game.name === highlightName) row.classList.add("highlighted");
+          if (game.name === finalName) row.classList.add("final");
+
+          const arrow = document.createElement("span");
+          arrow.className = "arrow";
+          arrow.setAttribute("aria-hidden", "true");
+          arrow.textContent = "←";
+
+          const name = document.createElement("span");
+          name.className = "game-name";
+          name.textContent = game.name;
+
+          const removeButton = document.createElement("button");
+          removeButton.type = "button";
+          removeButton.className = "remove-button";
+          removeButton.textContent = "×";
+          removeButton.setAttribute("aria-label", `Temporarily remove ${game.name}`);
+          removeButton.disabled = isSpinning ||
+            selectedGames.has(game.name) ||
+            temporarilyRemoved.has(game.name);
+          removeButton.addEventListener("click", () => {
+            temporarilyRemoved.add(game.name);
+            storeNames(removedStorageKey, temporarilyRemoved);
+            renderList();
+          });
+
+          if (selectedGames.has(game.name)) {
+            removeButton.hidden = true;
+          }
+
+          row.append(arrow, name, removeButton);
+          gameList.append(row);
+        }
+      }
+
+      spinButton.disabled = isSpinning || eligible.length === 0;
+      resetButton.disabled = false;
+    }
+
+    function playTick(intensity = 1) {
+      try {
+        audioContext ||= new (window.AudioContext || window.webkitAudioContext)();
+        const oscillator = audioContext.createOscillator();
+        const gain = audioContext.createGain();
+        oscillator.type = "square";
+        oscillator.frequency.value = 180 + 120 * intensity;
+        gain.gain.setValueAtTime(0.025, audioContext.currentTime);
+        gain.gain.exponentialRampToValueAtTime(0.001, audioContext.currentTime + 0.055);
+        oscillator.connect(gain);
+        gain.connect(audioContext.destination);
+        oscillator.start();
+        oscillator.stop(audioContext.currentTime + 0.055);
+      } catch {
+        // The visual spinner remains fully functional if Web Audio is unavailable.
+      }
+    }
+
+    function wait(milliseconds) {
+      return new Promise((resolve) => setTimeout(resolve, milliseconds));
+    }
+
+    async function spin() {
+      const eligible = getEligibleGames();
+      if (isSpinning || eligible.length === 0) return;
+
+      isSpinning = true;
+      const token = ++spinToken;
+      const winner = eligible[Math.floor(Math.random() * eligible.length)];
+      currentSelection = null;
+      selectedDisplay.setAttribute("aria-live", "off");
+      renderList();
+
+      const reducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      const steps = reducedMotion ? 8 : 26;
+
+      for (let step = 0; step < steps; step++) {
+        if (token !== spinToken) return;
+        const progress = step / (steps - 1);
+        const delay = reducedMotion ? 35 : Math.round(45 + 205 * progress * progress);
+        const candidateIndex = step === steps - 1
+          ? eligible.findIndex((game) => game.name === winner.name)
+          : (step % eligible.length);
+        const candidate = eligible[candidateIndex];
+        selectedName.textContent = candidate.name;
+        renderList(candidate.name);
+        playTick(1 - progress);
+        await wait(delay);
+      }
+
+      if (token !== spinToken) return;
+
+      selectedGames.add(winner.name);
+      storeNames(selectedStorageKey, selectedGames);
+      isSpinning = false;
+      currentSelection = winner.name;
+      selectedName.textContent = winner.name;
+      selectedDisplay.setAttribute("aria-live", "polite");
+      renderList(null, winner.name);
+      playTick(1);
+    }
+
+    function reset() {
+      spinToken++;
+      isSpinning = false;
+      selectedDisplay.setAttribute("aria-live", "polite");
+      temporarilyRemoved.clear();
+      selectedGames.clear();
+      currentSelection = null;
+      sessionStorage.removeItem(removedStorageKey);
+      sessionStorage.removeItem(selectedStorageKey);
+      selectedName.textContent = "Ready to spin";
+      renderList();
+    }
+
+    filterInputs.forEach((input) => {
+      input.addEventListener("change", () => {
+        if (isSpinning) {
+          spinToken++;
+          isSpinning = false;
+          selectedDisplay.setAttribute("aria-live", "polite");
+        }
+
+        if (!currentSelection) selectedName.textContent = "Ready to spin";
+        else selectedName.textContent = currentSelection;
+        renderList(null, currentSelection);
+      });
+    });
+
+    spinButton.addEventListener("click", spin);
+    resetButton.addEventListener("click", reset);
+    renderList();
+  </script>
+</body>
+</html>
