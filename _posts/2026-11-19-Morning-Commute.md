@@ -9,7 +9,7 @@ I looked up, saw the mountains, the sunrise, and was hit with an awareness that 
 
 ## The Mountains in Question
 
-![[morning-commute 1.jpg|morning-commute 1.jpg]]
+![Wasatch Mountains east of the Provo Central Station](../resources/morning-commute.jpg)
 
 Taken at Provo Central Station,  a little after 7AM.
 
